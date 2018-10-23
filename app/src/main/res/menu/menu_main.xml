@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.darko.musicplayer.MainActivity">
+
+    <item
+        android:id="@+id/action_shuffle"
+        android:orderInCategory="100"
+        android:actionViewClass="android.widget.CheckBox"
+        android:checkable="true"
+        android:title="@string/shuffle"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_repeat"
+        android:actionViewClass="android.widget.CheckBox"
+        android:checkable="true"
+        android:title="@string/repeat"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="200"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+</menu>
